@@ -7,6 +7,7 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  scroll-behavior: smooth;
 }
 
 h2,
@@ -248,7 +249,6 @@ a:focus,
   background-size: cover;
   background-position: center center;
   max-height: 300px;
-  /* max-height: 100px; */
 }
 
 .intro .overlay {
@@ -285,8 +285,8 @@ a:focus,
 }
 
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 150px;
   text-align: center;
 }
 
