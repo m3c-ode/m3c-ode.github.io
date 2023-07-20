@@ -1,0 +1,32 @@
+{
+  "m3b-bms": {
+    "title": "Brewery Management System",
+    "description": "This is a portfolio application designed to help craft beverage or breweries run their business - from recipe creation, to inventory and client base management including a delivery feature. \n This app is intended to be a personal project showcasing web development skills as part of a portfolio. It's a CRUD app built using NextJS, a meta framework based on ReactJS, and coded in TypeScript. The app is connected to a MongoDB database and has the potential to be a dedicated end-to-end solution for the brewery industry.",
+    "features": [
+      "Authentication and Authorization with Users management",
+      "Create and manage products and inventory (beers only for now) - create, edit, read, and delete",
+      "Step form for creating products and recipes",
+      "Manage Domain's client base and deliveries",
+      "Styled with Ant Design and Bootstrap",
+      "Google Places, Maps, and Autofill API integration"
+    ],
+    "prodLink": "https://m3b-mgtm-service.vercel.app/",
+    "githubLink": "https://github.com/m3c-ode/m3b-mgtm-service"
+  },
+  "ems": {
+    "title": "Employee Leave Manager",
+    "description": "An ASP.NET Core and Entity Framework based web application for managing employee leaves. This is another portfolio app to learn, use and leverage the Microsoft .NET environement.",
+    "features": [
+      "Authentication integrated with ASP.NET Core Identity",
+      "Admin have a dashboard view. They can manage Employees, Leave Types, and Allocate leaves to Employees.",
+      "Employees can request Leaves to Admins",
+      "MVC Pattern and C# syntax",
+      "External Services: Integration with email services for seamless communication and notifications",
+      "Deployment: The application has been deployed to Microsoft Azure cloud platform, through a CI/CD pipeline using GitHub",
+      "IIS (Internet Information Services): The application has been published and hosted on a local IIS server for testing purposes",
+      "SQL Server: The application is integrated with a SQL Server database to store and manage data related to employees, leave types, and leave requests"
+    ],
+    "prodLink": "https://leavemanagementweb20230616123130.azurewebsites.net",
+    "githubLink": "https://github.com/m3c-ode/LeaveManagementApp"
+  }
+}
