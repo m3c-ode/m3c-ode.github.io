@@ -1,6 +1,7 @@
-import React, { ChangeEvent, FormEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
+import "./style.css";
 
 type Props = {};
 
@@ -51,7 +52,7 @@ const Contact = (props: any) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" /* validate */ onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -108,7 +109,6 @@ const Contact = (props: any) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Location
                 </span>
-                {/* {props.data ? props.data.address : "loading"} */}
                 {"Vancouver, BC"}
               </p>
             </div>
@@ -117,7 +117,6 @@ const Contact = (props: any) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {/* {props.data ? props.data.phone : "loading"} */}
                 Get in touch
               </p>
             </div>
@@ -126,7 +125,6 @@ const Contact = (props: any) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {/* {props.data ? props.data.email : "loading"} */}
                 Get in touch
               </p>
             </div>
@@ -139,7 +137,6 @@ const Contact = (props: any) => {
                     <a
                       href={"https://github.com/m3c-ode"}
                     >
-                      {/* Facebook address */}
                       <i className="fa fa-github"></i>
                     </a>
                   </li>

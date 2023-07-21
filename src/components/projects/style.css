@@ -1,5 +1,5 @@
 #projects {
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
   background: #f6f6f6;
 }
 
@@ -70,7 +70,12 @@
 }
 
 .project-item {
-  padding-bottom: 8rem;
+  /* padding-bottom: 4rem; */
+}
+
+hr {
+  margin: 8rem auto 6rem auto;
+  text-align: center;
 }
 
 #projects .image-gallery-slide img {

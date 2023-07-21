@@ -44,12 +44,8 @@ const ProjectItem = ({
   return (
     <>
       <div className="project-item row">
-        {/* <p>Item</p> */}
         {imgPos.left &&
           <div className="col-xs-12 col-md-6">
-            {/* <img onClick={openGallery} src={imgSource ? imgSource : "img/about.jpg"} className="img-responsive" alt="" />{" "} */}
-
-            {/* <div className="img-responsive img-container"> */}
             <ImageGallery
               ref={imageGalleryRef}
               items={imgObject!}
@@ -58,7 +54,6 @@ const ProjectItem = ({
               showThumbnails={false}
               showPlayButton={false}
             />
-            {/* </div> */}
           </div>
         }
         <div className="col-xs-12 col-md-6">
@@ -86,11 +81,6 @@ const ProjectItem = ({
                       i % 2 === 1 ? <li key={`${d}-${i}`}>{d}</li> : null
                     ))
                     : "loading"}
-                  {/* {data
-                        ? data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                        : "loading"} */}
                 </ul>
               </div>
             </div>
@@ -98,7 +88,6 @@ const ProjectItem = ({
         </div>
         {imgPos.right &&
           <div className="col-xs-12 col-md-6">
-            {/* <img src="img/portfolio/m3b-bms-1.png" className="img-responsive" alt="" /> */}
             <ImageGallery
               ref={imageGalleryRef}
               items={imgObject!}
@@ -110,7 +99,7 @@ const ProjectItem = ({
           </div>
         }
       </div>
-
+      <hr />
     </>
   );
 };
