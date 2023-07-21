@@ -98,8 +98,15 @@ const ProjectItem = ({
         </div>
         {imgPos.right &&
           <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/portfolio/m3b-bms-1.png" className="img-responsive" alt="" />{" "}
+            {/* <img src="img/portfolio/m3b-bms-1.png" className="img-responsive" alt="" /> */}
+            <ImageGallery
+              ref={imageGalleryRef}
+              items={imgObject!}
+              showFullscreenButton={true}
+              showBullets={true}
+              showThumbnails={false}
+              showPlayButton={false}
+            />
           </div>
         }
       </div>

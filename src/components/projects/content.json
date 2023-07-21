@@ -8,25 +8,67 @@
       "Step form for creating products and recipes",
       "Manage Domain's client base and deliveries",
       "Styled with Ant Design and Bootstrap",
+      "App is integrated with a NoSQL MongoDB Database.",
       "Google Places, Maps, and Autofill API integration"
     ],
     "prodLink": "https://m3b-mgtm-service.vercel.app/",
-    "githubLink": "https://github.com/m3c-ode/m3b-mgtm-service"
+    "githubLink": "https://github.com/m3c-ode/m3b-mgtm-service",
+    "images": [
+      {
+        "original": "img/portfolio/m3b-bms-1.png",
+        "description": "Product table example"
+      },
+      {
+        "original": "img/portfolio/m3b-bms-2.png",
+        "description": "New product creation - step form"
+      },
+      {
+        "original": "img/portfolio/m3b-bms-3.png",
+        "description": "Delivery service with Google API implementation - Places, Directions"
+      },
+      {
+        "original": "img/portfolio/m3b-bms-4.png",
+        "description": "Client base management with delivery option"
+      }
+    ]
   },
-  "ems": {
+  "elm": {
     "title": "Employee Leave Manager",
-    "description": "An ASP.NET Core and Entity Framework based web application for managing employee leaves. This is another portfolio app to learn, use and leverage the Microsoft .NET environement.",
+    "description": "An ASP.NET Core and Entity Framework based web application for managing employee leaves. This is another portfolio app to learn, use and leverage the Microsoft .NET environment.",
     "features": [
       "Authentication integrated with ASP.NET Core Identity",
       "Admin have a dashboard view. They can manage Employees, Leave Types, and Allocate leaves to Employees.",
       "Employees can request Leaves to Admins",
       "MVC Pattern and C# syntax",
+      "Designed with Bootstrap",
       "External Services: Integration with email services for seamless communication and notifications",
       "Deployment: The application has been deployed to Microsoft Azure cloud platform, through a CI/CD pipeline using GitHub",
       "IIS (Internet Information Services): The application has been published and hosted on a local IIS server for testing purposes",
       "SQL Server: The application is integrated with a SQL Server database to store and manage data related to employees, leave types, and leave requests"
     ],
     "prodLink": "https://leavemanagementweb20230616123130.azurewebsites.net",
-    "githubLink": "https://github.com/m3c-ode/LeaveManagementApp"
+    "githubLink": "https://github.com/m3c-ode/LeaveManagementApp",
+    "images": [
+      {
+        "original": "img/portfolio/elm-1.png",
+        "description": "Login page"
+      },
+      {
+        "original": "img/portfolio/elm-2.png",
+        "description": "Admin view dashboard"
+      },
+      {
+        "original": "img/portfolio/elm-3.png",
+        "description": "Employee Management View"
+      },
+      {
+        "original": "img/portfolio/elm-4.png",
+        "description": "Leave Types Management View"
+      },
+      {
+        "original": "img/portfolio/elm-5.png",
+        "description": "Employee View of their Requests and Allocations"
+      }
+    ]
   }
 }
