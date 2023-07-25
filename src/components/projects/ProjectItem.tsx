@@ -1,6 +1,6 @@
 import ImageGallery, { ReactImageGalleryItem } from 'react-image-gallery';
 import './style.css';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 
 type Props = {
   title?: string,

@@ -1,7 +1,4 @@
-
-type Props = {};
-
-const Navigation = (props: Props) => {
+const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container-fluid">

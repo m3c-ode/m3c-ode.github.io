@@ -1,8 +1,6 @@
 import "./style.css";
 
-type Props = {};
-
-const Bio = (props: Props) => {
+const Bio = () => {
   return (
     <div id="bio" className="text-center">
       <div className="container">

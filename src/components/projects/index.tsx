@@ -1,8 +1,6 @@
 import ProjectItem from './ProjectItem';
 import content from './content.json';
 
-type Props = {};
-
 // const bmsImages: ReactImageGalleryItem[] = [
 //   {
 //     original: 'img/portfolio/m3b-bms-1.png',
@@ -11,7 +9,7 @@ type Props = {};
 // [...]
 // ];
 
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <div id="projects">
       <div className="container">

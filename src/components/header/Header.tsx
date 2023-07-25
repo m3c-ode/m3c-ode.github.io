@@ -1,8 +1,6 @@
 import "./style.css";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header id="header">
       <div className="intro">
