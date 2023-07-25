@@ -21,4 +21,4 @@ This is a portfolio landing page showcasing my web development projects and skil
 - GitHub API: Used to fetch and display my GitHub projects on the landing page.
 - This page will be hosted thanks to the GitHub Pages site.
 
-If you have any questions orwould like to get in touch, you'll know how to reach me ;-) (.c.f info on my landing page or on my github profile).
+If you have any questions or would like to get in touch, you'll know how to reach me ;-) (.c.f info on my landing page or on my GitHub profile).
