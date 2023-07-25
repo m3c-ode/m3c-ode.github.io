@@ -148,6 +148,15 @@ label {
   background: #fff;
 }
 
+@media screen and (max-width: 992px) {
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;

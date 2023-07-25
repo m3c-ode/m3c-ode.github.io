@@ -69,8 +69,11 @@
   /* left: 0; */
 }
 
-.project-item {
-  /* padding-bottom: 4rem; */
+@media screen and (max-width: 768px) {
+  .project-item {
+    /* padding-bottom: 4rem; */
+    padding: 0 15px;
+  }
 }
 
 hr {
