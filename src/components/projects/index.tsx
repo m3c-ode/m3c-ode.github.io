@@ -1,5 +1,4 @@
 import ProjectItem from './ProjectItem';
-import { ReactImageGalleryItem } from 'react-image-gallery';
 import content from './content.json';
 
 type Props = {};

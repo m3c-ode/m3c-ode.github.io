@@ -1,7 +1,6 @@
-import React, { useRef, useState } from 'react';
-import ReactImageGallery from 'react-image-gallery';
 import ImageGallery, { ReactImageGalleryItem } from 'react-image-gallery';
 import './style.css';
+import { useRef, useState } from 'react';
 
 type Props = {
   title?: string,
@@ -25,21 +24,10 @@ const ProjectItem = ({
   prodLink,
   prodNote,
   githubLink,
-  imgSource,
   imgObject,
   imgPos }: Props) => {
 
-  const [isOpen, setIsOpen] = useState(false);
   const imageGalleryRef = useRef<ImageGallery | null>(null);
-
-  const openGallery = () => {
-    setIsOpen(true);
-    imageGalleryRef.current?.fullScreen();
-  };
-
-  const closeGallery = () => {
-    setIsOpen(false);
-  };
 
   return (
     <>

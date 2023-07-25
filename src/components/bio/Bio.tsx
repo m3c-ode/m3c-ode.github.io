@@ -12,7 +12,7 @@ const Bio = (props: Props) => {
             Hi There! I'm Maxime! 👋
             <br />
             <br />
-            I'm a multilingual very curious individual with a background encompasses competitive swimming, athletics, sports science, coaching, homebrewing, language instruction... and software development! I'm always looking for opportunities to grow, striving to explore my potential but others as well!
+            I'm a multilingual very curious individual with a background encompassing competitive swimming, athletics, sports science, coaching, homebrewing, language instruction... and software development! I'm always looking for opportunities to grow, striving to explore my potential but others as well!
             <br /><br />
             I've been focusing mostly on full stack web development, with technologies including Javascript/Typescript (React with Vite, Next.js, Node.js, NestJS), Python and .NET (C#). I am familiar with both NoSQL (MongoDB) and SQL (PostgresSQL, MS SQL) Databases and their respective Object Document Mapper and Object Relational Mapping. I also have experience in testing and quality assurance.
             <br />

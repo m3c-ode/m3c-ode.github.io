@@ -11,7 +11,7 @@ const initialState = {
   message: "",
 };
 
-const Contact = (props: any) => {
+const Contact = (props: Props) => {
 
   const [{ name, email, message }, setState] = useState(initialState);
 
