@@ -31,7 +31,7 @@ const ProjectItem = ({
 
   return (
     <>
-      <div className="project-item row">
+      <div className="project-item container">
         {imgPos.left &&
           <div className="col-xs-12 col-md-6">
             <ImageGallery
