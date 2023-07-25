@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a portfolio landing page showcasing my web development projects and skills. It is built using Vite, React with TypeScript template, and styled with Bootstrap.
+This is a portfolio landing page showcasing my web development projects. It is built using Vite, React with TypeScript template, and styled with Bootstrap.
 
 ## Features
 
