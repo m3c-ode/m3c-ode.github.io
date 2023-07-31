@@ -41,7 +41,7 @@ const Contact = () => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+          <div className="col-md-9">
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>

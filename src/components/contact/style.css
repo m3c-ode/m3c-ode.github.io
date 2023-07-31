@@ -149,7 +149,7 @@ label {
 }
 
 .contact-info {
-  margin-left: 3vw;
+  text-align: center;
 }
 
 @media screen and (max-width: 992px) {
@@ -162,6 +162,7 @@ label {
   .contact-info {
     margin-left: 0;
     padding-left: 0;
+    text-align: left;
   }
 
   .contact-items {
