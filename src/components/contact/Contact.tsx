@@ -100,31 +100,33 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <h3>Contact Info</h3>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Location
-                </span>
-                {"Vancouver, BC"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                Get in touch
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                Get in touch
-              </p>
+          <div className="col-md-3 contact-info">
+            <h3>Contact Info</h3>
+            <div className="contact-items">
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-map-marker"></i> Location
+                  </span>
+                  {"Vancouver, BC"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i> Phone
+                  </span>{" "}
+                  Get in touch
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-envelope-o"></i> Email
+                  </span>{" "}
+                  Get in touch
+                </p>
+              </div>
             </div>
           </div>
           <div className="col-md-12">

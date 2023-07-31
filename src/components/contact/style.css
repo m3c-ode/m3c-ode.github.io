@@ -148,8 +148,29 @@ label {
   background: #fff;
 }
 
+.contact-info {
+  margin-left: 3vw;
+}
+
 @media screen and (max-width: 992px) {
+  #contact h3 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
   .contact-info {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .contact-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
