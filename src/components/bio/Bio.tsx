@@ -19,7 +19,7 @@ const Bio = () => {
             <br /><br />
             Scroll down or navigate to my Projects to see what I've come up thus far on my own. I'm also looking to participate into some collaborative projects in my spare time.
             <br /><br />
-            If I'm not working on my computer, I'm probably around attending to my beers fermenting (but also make kombucha, kefir...), training for the World Swimming Masters Swimming Championships (or simply for pleasure...), on my bike going somewhere, mixing some music, learnign something new or taking care of the house!
+            If I'm not working on my computer, I'm probably around attending to my beers fermenting (but also make kombucha, kefir...), training for the World Swimming Masters Swimming Championships (or simply for pleasure...), on my bike going somewhere, mixing some music, learning something new or taking care of the house!
             <br /><br />
             At the bottom of this page you'll find ways to reach out to me. Hope we can chat soon!
           </p>
