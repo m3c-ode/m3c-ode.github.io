@@ -33,15 +33,17 @@ const ProjectItem = ({
     <>
       <div className="project-item container">
         {imgPos.left &&
-          <div className="col-xs-12 col-md-6">
-            <ImageGallery
-              ref={imageGalleryRef}
-              items={imgObject!}
-              showFullscreenButton={true}
-              showBullets={true}
-              showThumbnails={false}
-              showPlayButton={false}
-            />
+          // <div className='test'>
+            <div className="col-xs-12 col-md-6">
+              <ImageGallery
+                ref={imageGalleryRef}
+                items={imgObject!}
+                showFullscreenButton={true}
+                showBullets={true}
+                showThumbnails={false}
+                showPlayButton={false}
+              />
+            {/* </div> */}
           </div>
         }
         <div className="col-xs-12 col-md-6">

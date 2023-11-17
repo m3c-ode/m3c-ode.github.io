@@ -36,6 +36,16 @@ const Projects = () => {
             prodNote={"(currently offline due to change in plan subscription)"}
             imgObject={content['elm'].images}
           />
+          <ProjectItem
+            imgPos={{ left: true }}
+            title={content['quizme'].title}
+            description={content['quizme'].description}
+            features={content['quizme'].features}
+            prodLink={content['quizme'].prodLink}
+            githubLink={content['quizme'].githubLink}
+            prodNote={""}
+            imgObject={content['quizme'].images}
+          />
         </div>
       </div>
     </div>

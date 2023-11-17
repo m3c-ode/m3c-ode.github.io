@@ -70,5 +70,56 @@
         "description": "Employee View of their Requests and Allocations"
       }
     ]
+  },
+  "quizme": {
+    "title": "QuizMe",
+    "description": "QuizMe is an interactive quiz platform that allows users to create, share, and participate in quizzes on a wide range of topics. Whether you're a student looking to test your knowledge, an educator creating quizzes for your class, or just someone who loves trivia, QuizMe provides a user-friendly and engaging experience for all. In addition, QuizMe integrates OpenAI's API in order to provide some assistance with Questions and Answers generation, when provided with a Theme.",
+    "features": [
+      "Create Quizzes: Easily create quizzes with multiple-choice questions and answers. Add questions to your quizzes and set correct answers.",
+      "AI integration: Have a theme but would like to find inspiration for a Question and Answers? With 'Ai Generation', you can generate content that will also choose the answer which is right. Be aware though, that it may not always be accurate. Double check before validating!",
+      "Share and Discover: Share your quizzes with others or explore a variety of quizzes created by the QuizMe community.",
+      "Challenge Friends: Challenge your friends to take your quiz and see who scores the highest.",
+      "Track Progress: Keep track of your quiz attempts and scores. See how you improve over time.",
+      "User-Friendly: QuizMe is designed with a clean and intuitive user interface, making it accessible to users of all ages and backgrounds.",
+      "Deployment: Deployed to use in the shared link to use for all",
+      "Frontend: HTML, SCSS, Javascript, jQuery, EJS",
+      "Backend: NodeJS, Express.js, PostgreSQL with session based authentication"
+    ],
+    "prodLink": "https://quiz-me.nexxai.dev/",
+    "githubLink": "https://github.com/m3c-ode/quiz-me/tree/master",
+    "images": [
+      {
+        "original": "img/portfolio/quizme/quizme-create-with-ai.gif",
+        "description": "Create with AI"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-home.png",
+        "description": "Home page"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-quizzes.png",
+        "description": "Quizzes page"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-create-ai.png",
+        "description": "Create quiz"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-create-ai.png",
+        "description": "Create quiz"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-take-quiz.png",
+        "description": "Take quiz"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-attempts.png",
+        "description": "Attempts page"
+      },
+      {
+        "original": "img/portfolio/quizme/quizme-attempt-details.png",
+        "description": "Attempt details quiz"
+      }
+    ]
   }
 }
