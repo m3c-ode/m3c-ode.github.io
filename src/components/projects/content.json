@@ -46,7 +46,7 @@
       "IIS (Internet Information Services): The application has been published and hosted on a local IIS server for testing purposes",
       "SQL Server: The application is integrated with a SQL Server database to store and manage data related to employees, leave types, and leave requests"
     ],
-    "prodLink": "https://leavemanagementweb20230616123130.azurewebsites.net",
+    "prodLink": "https://leavemanagementweb20231123090405.azurewebsites.net",
     "githubLink": "https://github.com/m3c-ode/LeaveManagementApp",
     "images": [
       {
