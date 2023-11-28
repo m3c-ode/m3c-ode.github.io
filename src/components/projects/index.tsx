@@ -18,6 +18,15 @@ const Projects = () => {
             <h2 className="text-center">Projects</h2>
           </div>
           <ProjectItem
+            imgPos={{ right: true }}
+            title={content['comeeat'].title}
+            description={content['comeeat'].description}
+            features={content['comeeat'].features}
+            prodLink={content['comeeat'].prodLink}
+            githubLink={content['comeeat'].githubLink}
+            imgObject={content['comeeat'].images}
+          />
+          <ProjectItem
             imgPos={{ left: true }}
             title={content['m3b-bms'].title}
             description={content['m3b-bms'].description}
@@ -33,7 +42,7 @@ const Projects = () => {
             features={content['elm'].features}
             prodLink={content['elm'].prodLink}
             githubLink={content['elm'].githubLink}
-            prodNote={"(currently offline due to change in plan subscription)"}
+            // prodNote={"(currently offline due to change in plan subscription)"}
             imgObject={content['elm'].images}
           />
           <ProjectItem

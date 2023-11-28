@@ -51,3 +51,7 @@
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+
+.bio-text {
+  text-align: justify;
+}

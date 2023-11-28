@@ -73,11 +73,11 @@
   },
   "quizme": {
     "title": "QuizMe",
-    "description": "QuizMe is an interactive quiz platform that allows users to create, share, and participate in quizzes on a wide range of topics. Whether you're a student looking to test your knowledge, an educator creating quizzes for your class, or just someone who loves trivia, QuizMe provides a user-friendly and engaging experience for all. In addition, QuizMe integrates OpenAI's API in order to provide some assistance with Questions and Answers generation, when provided with a Theme.",
+    "description": "QuizMe is an interactive quiz platform that allows users to create, share, and participate in quizzes on a wide range of topics. Whether you're a student looking to test your knowledge, an educator creating quizzes for your class, or just someone who loves trivia, QuizMe provides a user-friendly and engaging experience for all. Have a theme but would like to find inspiration for a Question and Answers? Quizme integrates OpenAI's API to assist with content creation. Double checking the right answer is always a good idea.",
     "features": [
       "Create Quizzes: Easily create quizzes with multiple-choice questions and answers. Add questions to your quizzes and set correct answers.",
-      "AI integration: Have a theme but would like to find inspiration for a Question and Answers? With 'Ai Generation', you can generate content that will also choose the answer which is right. Be aware though, that it may not always be accurate. Double check before validating!",
       "Share and Discover: Share your quizzes with others or explore a variety of quizzes created by the QuizMe community.",
+      "AI integration: Generate content that will also choose the answer which is right.",
       "Challenge Friends: Challenge your friends to take your quiz and see who scores the highest.",
       "Track Progress: Keep track of your quiz attempts and scores. See how you improve over time.",
       "User-Friendly: QuizMe is designed with a clean and intuitive user interface, making it accessible to users of all ages and backgrounds.",
@@ -119,6 +119,49 @@
       {
         "original": "img/portfolio/quizme/quizme-attempt-details.png",
         "description": "Attempt details quiz"
+      }
+    ]
+  },
+  "comeeat": {
+    "title": "Come Eat!",
+    "description": "Ever wanted to discover new places with like minded Individuals? 'Come Eat' allows you to, either you're a local foodie or a traveler in a new city, to find high-rated places to eat and drink in your area to share with other like minded individuals!",
+    "features": [
+      "Profile Creation: Register and set-up your profile with up to 3 pictures, defining what style of food you like, your budget, and what you are looking for with others!",
+      "Create Experiences: Based on your profile's settings and your location, you can create an experience for others to join you in your quest to find the best places to eat and drink!",
+      "Matching algorithm: Just connect to the app and see if you match with other users! If you do, you can chat with them and plan your next experience!",
+      "Google Places API integration: Our app is integrated with Google Places API to provide you with the best places to eat and drink in your area!",
+      "User-Friendly: Our app is mobile friendly, so you can use it on the go!",
+      "Chat and notifications system: Experience creators get to choose interested participants. Once selected, a chat is created between the creator and the participants to plan the experience!",
+      "Deployment: Deployed to use in the shared link to use for all",
+      "Frontend: React, TailwindCSS, Javascript.",
+      "Backend: Ruby on Rails, Action Cable WebSocket, Google Places API, PostgreSQL with session based authentication"
+    ],
+    "prodLink": "https://comeeat.io/",
+    "githubLink": "https://github.com/nexxai/ComeEat",
+    "images": [
+      {
+        "original": "img/portfolio/comeeat/intro.gif",
+        "description": "Welcome"
+      },
+      {
+        "original": "img/portfolio/comeeat/profile.png",
+        "description": "Profile page"
+      },
+      {
+        "original": "img/portfolio/comeeat/profile-settings.png",
+        "description": "Profile settings page"
+      },
+      {
+        "original": "img/portfolio/comeeat/create-experience.gif",
+        "description": "Create experience"
+      },
+      {
+        "original": "img/portfolio/comeeat/found-experience.gif",
+        "description": "Found experience"
+      },
+      {
+        "original": "img/portfolio/comeeat/chat.png",
+        "description": "Chat page"
       }
     ]
   }
